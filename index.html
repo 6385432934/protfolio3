@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>hari</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body{
+        background-image: linear-gradient(to right bottom, #d21f47, #a92f6f, #724179, #434468, #353c45);
+          background-repeat:no-repeat;
+          background-size: cover;
+          height: 90vh;
+    }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+      *{
+        font-family: 'Poppins', sans-serif;
+        padding: 0;margin: 0;
+      }
+    .frame{
+        height: 450px;width: 300px;
+        margin: 100px auto;
+        border-radius: 10px;
+    }
+    .article>div{
+        font-size: 2.5rem;
+        text-align: center;
+        color: #fff;
+    }
+    .article>p{
+        text-align: center;
+        color: #fff;
+    }
+    .article :is(div, p){
+        box-sizing: border-box;
+        padding: 20px 0 0 0;
+    }
+    .article{
+        height: 130px;width:auto;
+        background-color:rgb(210, 31, 71);
+    }
+    .account>.fa>i{
+        font-size: 45px;
+        color: #fff;
+    }
+    .account>.fa{
+          height: 80px;width: 80px;
+          background-color: rgb(53, 60, 69);
+          box-sizing: border-box;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+    }
+    .form>form>input[type="email"]{
+        border: none;
+        border-bottom:1pt solid #767676;
+        width: 150px;
+    }
+    .form>form>input[type="password"]{
+        width: 150px;
+        border: none;
+        background-color:  rgba(210, 31, 71, 0.5);
+
+    }
+    
+    .account{
+        height: 100px;width:110%;
+        background-color:rgb(210, 31, 71);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow:  0 0 10px rgb(44, 43, 43);
+        position: relative;
+        right: 15px;
+        top:10px;
+    }
+    .top-frame{
+        background-color:rgb(210, 31, 71);
+        width: 100%;
+        height: 50%;
+    }
+    :is(input)::placeholder{
+        background-color: rgb(210, 31, 71);
+        color: #fff;
+    }
+    .button a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bolder;
+    }
+    .button{
+        height: 30px;width: 110px;
+        background-color: rgb(210, 31, 71);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0 0 100px;
+    }
+    .forgot a{
+        text-decoration: none;
+        color: black;
+    }
+    .font-1 i{
+        font-size: 20px;
+        color: #fff;
+    }
+    .font-1{
+        height: 40px;width: 40px;
+        background-color: rgb(53, 60, 69);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .font-awesome{
+        height: 50px;width:250px;
+        margin: 0 0 0 20px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .font-1:hover{
+        background-color: rgb(210, 31, 71);
+    }
+    .bottom-frame{
+        background-color: rgb(53, 60, 69);
+        width:100%;
+        height:50%;
+    }
+    .bottom-frame :is(.terms, .forgot, .font-awesome){
+        box-sizing: border-box;
+          padding: 20px 0 0 0;
+          text-align: center;
+    }
+ 
+  </style>
+    </head>
+<body>
+    <div class="container">
+        <div class="frame">
+            <div class="top-frame">
+
+             <div class="article">
+                <div>User Login</div>
+                <p>Welcome to website</p>
+             </div>
+
+             <div class="account">
+                <div class="fa">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                  <div class="form">
+                    <form action="">
+                        <input id="email" type="email" placeholder="example@gmail.com">
+                        <br>
+                        <input type="password" placeholder=" Password">
+                    </form>
+                  </div>
+             </div>
+            </div>
+
+            <div class="bottom-frame">
+             <div class="terms">
+                <p> <input type="checkbox" id="t-c">
+                <span>Terms And Conditions</span></p>
+             </div>
+
+             <div class="button">
+                <a href="">LOGIN</a>
+             </div>
+
+             <div class="forgot">
+                <a href="">Forgot password?</a>
+             </div>
+
+             <div class="font-awesome">
+                <div class="font-1">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="font-1">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="font-1">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="font-1">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+             </div>
+
+             </div>
+
+        </div>
+    </div>
+</body>
+</html>
